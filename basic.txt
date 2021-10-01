@@ -4,7 +4,7 @@ git add file_name   // add specific file
 git add -A          //all files in staging area
 git restore <file>           //to discard changes in working directory
 git rm --cached <file>       //to unstage
-git commit          // open in vim editor
-git commit -m "statement"    //not deal with vim editor
+git commit          // open in code editor
+git commit -m "statement"    //not deal with code editor
 git checkout file_name       //for recover accidently modified file 
 git checkout -f        
